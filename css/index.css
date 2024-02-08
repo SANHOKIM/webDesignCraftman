@@ -1,0 +1,79 @@
+/* *** */
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+/* 공통클래스 */
+
+.container {
+  width: 1000px;
+}
+
+.rel.abs
+.d-flex
+.w200.w800
+
+/* 태그별스타일 */
+
+header {
+}
+.content {
+}
+#popup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  z-index: 9999;
+  display: none;
+}
+
+/* --------------------------------- */
+
+.rel {
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w800 {
+  width: 800px;
+}
+
+/* header */
+
+.d-block {
+  display: block;
+}
+
+/* content */
+.h350 {
+  height: 350px;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+.w33 {
+  width: 33%;
+}

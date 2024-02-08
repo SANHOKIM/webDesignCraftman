@@ -1,0 +1,53 @@
+/* *** */
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+/* container */
+
+.rel {
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w800 {
+  width: 800px;
+}
+
+/* header */
+
+.d-block {
+  display: block;
+}
+
+/* content */
+.h350 {
+  height: 350px;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+.w33 {
+  width: 33%;
+}

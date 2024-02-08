@@ -1,0 +1,27 @@
+선생님자료
+
+
+.container.rel.d-flex>header.w200+.content.w800
+
+*header
+h1>a.d-block[href=#none]>img.d-block[alt="로고"]^^ul#gnb>li*4>a.d-block[href=#none]+ul.d2>li*4>a.d-block[href=#none]
+
+*content
+.swiper.h350+.threeTab.d-flex.h200+footer.d-flex.h100
+
+*swiper
+.swiper-wapper>.swiper-slide*3>img  -> 800 * 350
+
+*threeTab
+.boardtab.w33+.imgbanner.w33>a>img^^.linkbanner.w33>a>img
+
+*footer
+h3>img^.fbox>ul.d-flex>li*4>a.d-block{하단메뉴}^^div{copyright@}
+
+1시간내 나오면 3년차 퍼블리셔. 일 잔한다고 칭찬받는 신인 일 것. 
+
+@charset "utf-8"; // css 앞에 붙여야함
+
+position fixed없습니다
+
+닫기버튼은 웹표준(장애인을위해) 아래 있어야 해요 ex <p> 다음 <button> 닫기 배치 
