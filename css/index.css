@@ -1,4 +1,7 @@
-/* *** */
+* {
+  margin: 0;
+  padding: 0;
+}
 ul,
 li {
   list-style: none;
@@ -11,12 +14,9 @@ a:hover {
   color: red;
 }
 
-/* 공통클래스 */
-
 .container {
   width: 1000px;
 }
-
 .rel {
   position: relative;
 }
@@ -27,18 +27,18 @@ a:hover {
   display: flex;
 }
 .d-block {
+  display: block;
+}
+.d-none {
   display: none;
 }
-/* 확인하면서 영역 체크하는  */
 .ofh {
   overflow: hidden;
 }
-/* 요소검사에서 레드를 넣다뺏다 f12-> class에 red만 쓰면 옳게 적용 되었는지 영역바로 확인가능 */
-.bgred {
+.red {
   background-color: red;
 }
 
-/* w n00은 시험지 보면서 결정  */
 .w200 {
   width: 200px;
 }
@@ -55,7 +55,7 @@ a:hover {
   height: 350px;
 }
 .w33 {
-  width: 33.3333%;
+  width: 33.333%;
 }
 
 .text-center {
@@ -71,9 +71,28 @@ a:hover {
   align-items: center;
 }
 
-/* 태그별스타일 */
-
 header {
+  padding: 2rem 0;
+  box-sizing: border-box;
+}
+#gnb {
+  text-indent: 1.5rem;
+}
+#gnb ul {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+#gnb li:hover ul {
+  max-height: 300px;
+}
+#gnb > li:hover > a {
+  color: red;
+}
+#gnb > li > a {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2;
 }
 .content {
 }
@@ -83,51 +102,5 @@ header {
   transform: translate(-50%, -50%);
   background-color: white;
   border: 1px solid black;
-  z-index: 9999;
-  display: none;
-}
-
-/* --------------------------------- */
-/* --------------------------------- */
-/* --------------------------------- */
-/* --------------------------------- */
-/* --------------------------------- */
-
-.rel {
-  position: relative;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.w200 {
-  width: 200px;
-}
-
-.w800 {
-  width: 800px;
-}
-
-/* header */
-
-.d-block {
-  display: block;
-}
-
-/* content */
-.h350 {
-  height: 350px;
-}
-
-.h200 {
-  height: 200px;
-}
-
-.h100 {
-  height: 100px;
-}
-
-.w33 {
-  width: 33%;
+  z-index: 1000000;
 }
