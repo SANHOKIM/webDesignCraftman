@@ -25,3 +25,5 @@ h3>img^.fbox>ul.d-flex>li*4>a.d-block{하단메뉴}^^div{copyright@}
 position fixed없습니다
 
 닫기버튼은 웹표준(장애인을위해) 아래 있어야 해요 ex <p> 다음 <button> 닫기 배치 
+
+<속성은 클래스 보다 앞으로 a[href=#none].d-block 

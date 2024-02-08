@@ -17,9 +17,59 @@ a:hover {
   width: 1000px;
 }
 
-.rel.abs
-.d-flex
-.w200.w800
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.d-flex {
+  display: flex;
+}
+.d-block {
+  display: none;
+}
+/* 확인하면서 영역 체크하는  */
+.ofh {
+  overflow: hidden;
+}
+/* 요소검사에서 레드를 넣다뺏다 f12-> class에 red만 쓰면 옳게 적용 되었는지 영역바로 확인가능 */
+.bgred {
+  background-color: red;
+}
+
+/* w n00은 시험지 보면서 결정  */
+.w200 {
+  width: 200px;
+}
+.w800 {
+  width: 800px;
+}
+.h100 {
+  height: 100px;
+}
+.h200 {
+  height: 200px;
+}
+.h350 {
+  height: 350px;
+}
+.w33 {
+  width: 33.3333%;
+}
+
+.text-center {
+  text-align: center;
+}
+.jcc {
+  justify-content: center;
+}
+.jcb {
+  justify-content: space-between;
+}
+.aic {
+  align-items: center;
+}
 
 /* 태그별스타일 */
 
@@ -37,6 +87,10 @@ header {
   display: none;
 }
 
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --------------------------------- */
 /* --------------------------------- */
 
 .rel {
